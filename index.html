@@ -2,154 +2,113 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Takshashila Vidya Niketan (TVN) School</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-      background-color: #f9f9f9;
+      background-color: #f0f8ff;
+      color: #333;
     }
     header {
-      background-color: #4CAF50;
+      background-color: #004d99;
       color: white;
-      padding: 20px;
       text-align: center;
+      padding: 20px;
     }
     header img {
-      width: 120px;
-      border-radius: 50%;
+      max-height: 80px;
       margin-bottom: 10px;
-    }
-    nav {
-      background-color: #333;
-      overflow: hidden;
-    }
-    nav a {
-      float: left;
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 20px;
-      text-decoration: none;
-    }
-    nav a:hover {
-      background-color: #ddd;
-      color: black;
     }
     section {
       padding: 20px;
       max-width: 900px;
-      margin: auto;
+      margin: 20px auto;
       background-color: white;
-      margin-top: 20px;
-      border-radius: 5px;
-      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-    h2 {
-      color: #4CAF50;
+    h1, h2 {
+      color: #004d99;
     }
-    .facility {
-      background-color: #f2f2f2;
-      margin: 10px 0;
-      padding: 10px;
-      border-radius: 5px;
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
     }
-    .gallery img {
-      width: 100%;
-      max-width: 500px;
-      margin: 10px 0;
-      border-radius: 5px;
+    .photo-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 15px;
+    }
+    .photo-gallery img {
+      width: 250px;
+      height: auto;
+      border-radius: 8px;
       box-shadow: 0 0 5px rgba(0,0,0,0.2);
     }
-    form {
-      max-width: 400px;
-      margin: auto;
-    }
-    input, textarea {
-      width: 100%;
-      padding: 10px;
-      margin: 5px 0 15px 0;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-    }
-    button {
-      background-color: #4CAF50;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: #45a049;
-    }
     footer {
-      text-align: center;
-      padding: 15px;
-      background-color: #4CAF50;
+      background-color: #004d99;
       color: white;
+      text-align: center;
+      padding: 10px;
       margin-top: 20px;
     }
   </style>
 </head>
 <body>
 
-<header>
-  <img src="tvnlogo.jpg" alt="TVN School Logo">
-  <h1>Takshashila Vidya Niketan (TVN) School</h1>
-  <p>Block Ghughri, District Mandla, Madhya Pradesh</p>
-  <p>Medium: Hindi & English | Classes: Nursery to 8th</p>
-</header>
+  <header>
+    <img src="tvnlogo.jpg" alt="School Logo">
+    <h1>Takshashila Vidya Niketan (TVN) School</h1>
+    <p>Empowering Young Minds with Knowledge</p>
+  </header>
 
-<nav>
-  <a href="#home">Home</a>
-  <a href="#about">About</a>
-  <a href="#facilities">Facilities</a>
-  <a href="#gallery">Gallery</a>
-  <a href="#contact">Contact</a>
-</nav>
+  <section>
+    <h2>About Our School</h2>
+    <p>Takshashila Vidya Niketan (TVN) School is committed to providing quality education from Nursery to 8th Class. Our school focuses on smart classes, a safe environment, and overall development of students with experienced and caring teachers.</p>
+    <p>तक़्शिला विद्या निकेतन (TVN) स्कूल बच्चों को Nursery से 8वीं कक्षा तक गुणवत्तापूर्ण शिक्षा प्रदान करता है। हमारा विद्यालय स्मार्ट क्लास, सुरक्षित परिवेश और अनुभवी शिक्षकों के साथ विद्यार्थियों के सर्वांगीण विकास पर विशेष ध्यान देता है।</p>
+  </section>
 
-<section id="home">
-  <h2>Welcome to TVN School</h2>
-  <p>Takshashila Vidya Niketan (TVN) School offers quality education from Nursery to 8th in both Hindi and English mediums. We focus on holistic development of students with modern teaching methods.</p>
-</section>
+  <section>
+    <h2>Facilities</h2>
+    <ul>
+      <li>Smart Classrooms with Digital Boards</li>
+      <li>Large Playground</li>
+      <li>Safe School Van Facility</li>
+      <li>Experienced and Caring Teachers</li>
+      <li>Activity-Based Learning</li>
+    </ul>
+  </section>
 
-<section id="about">
-  <h2>About Us</h2>
-  <p>TVN School is located in Block Ghughri, District Mandla, Madhya Pradesh. We are dedicated to nurturing young minds with the best of traditional and modern education practices.</p>
-</section>
+  <section>
+    <h2>Principal's Message</h2>
+    <p>Welcome to Takshashila Vidya Niketan (TVN) School! Our mission is to nurture young minds with knowledge, discipline, and values. We are committed to creating a safe and inspiring learning environment where every child can achieve their full potential.</p>
+  </section>
 
-<section id="facilities">
-  <h2>Our Facilities</h2>
-  <div class="facility">✅ Smart Classes</div>
-  <div class="facility">✅ Playground</div>
-  <div class="facility">✅ Van (Transport Facility)</div>
-</section>
+  <section>
+    <h2>Our School in Pictures</h2>
+    <div class="photo-gallery">
+      <img src="schoolphoto.jpg" alt="Main School Building">
+      <img src="classroom.jpg" alt="Smart Classroom">
+      <img src="students.jpg" alt="Students Group">
+      <img src="activities.jpg" alt="School Activities">
+      <img src="principal-room.jpg" alt="Principal Room">
+    </div>
+  </section>
 
-<section id="gallery">
-  <h2>Gallery</h2>
-  <img src="schoolphoto.jpg" alt="School Building Photo">
-</section>
+  <section>
+    <h2>Contact Us</h2>
+    <p>Block Ghughri, District Mandla, Madhya Pradesh</p>
+    <p>Phone: +91-XXXXXXXXXX</p>
+    <p>Email: tvnschool@example.com</p>
+  </section>
 
-<section id="contact">
-  <h2>Contact / Admission Enquiry</h2>
-  <form>
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" placeholder="Your Name">
-
-    <label for="phone">Phone:</label>
-    <input type="text" id="phone" name="phone" placeholder="Your Phone Number">
-
-    <label for="message">Message:</label>
-    <textarea id="message" name="message" rows="4" placeholder="Your Message"></textarea>
-
-    <button type="submit">Submit</button>
-  </form>
-</section>
-
-<footer>
-  &copy; 2025 Takshashila Vidya Niketan School. All rights reserved.
-</footer>
+  <footer>
+    &copy; 2025 Takshashila Vidya Niketan (TVN) School. All Rights Reserved.
+  </footer>
 
 </body>
 </html>
